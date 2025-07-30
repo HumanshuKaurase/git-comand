@@ -1,11 +1,11 @@
 # Git Commands
 
-## 1. Initialization
+##  Initialization
 - **Create a new Git repository**:
   
   `git init`
 
-## 2. Configuration
+##  Configuration
 - **Set global username**:
   
   `git config --global user.name "Naruto"`
@@ -14,7 +14,7 @@
   
   `git config --global user.email "narutouzumaki@gmail.com"`
 
-## 3. File Operations
+##  File Operations
 - **Create a new file**:
   
   `touch <filename>`
@@ -27,7 +27,7 @@
   
   `git restore <filename>`
 
-## 4. Staging and Commit
+##  Staging and Commit
 - **Check the status of the repository**:
   
   `git status`
@@ -40,7 +40,7 @@
   
   `git commit -m "your commit message"`
 
-## 5. Branching
+##  Branching
 - **Create a new branch**:
   
   `git checkout -b <branch_name>`
@@ -53,7 +53,7 @@
   
   `git branch`
 
-## 6. Logs
+##  Logs
 - **View commit history**:
   
   `git log`
@@ -62,12 +62,12 @@
   
   `git log --oneline`
 
-## 7. Remove from Staging
+##  Remove from Staging
 - **Unstage a file (remove from index but keep in working directory)**:
   
   `git rm --cached <filename>`
 
-## 8. Miscellaneous
+##  Miscellaneous
 - **View all files, including hidden ones**:
   
   `ls -a`
